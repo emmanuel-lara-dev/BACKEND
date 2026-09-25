@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvatica, sans-serif;
+  box-sizing: border-box;
+}
+html,
+body,#root
+ {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(149, 130, 130);
+}
+html{
+  background-color: rgb(104, 100, 100);
+  font-family: helvatica, sans-serif;
+}
+.notes{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+.note{
+  background-color: #fff;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  max-width: 200rem;
+  color: #bc0d0d;
+}
