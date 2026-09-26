@@ -6,6 +6,6 @@ const noteSchema = new mongoose.Schema({
     description: String,
 })
 
-const noteModel = mongoose.model("Note", noteSchema)
+const noteModel = mongoose.model("mama", noteSchema)
 
 module.exports = noteModel
